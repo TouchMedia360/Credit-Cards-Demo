@@ -1,0 +1,32 @@
+.forms__container {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input__field {
+  width: 97%;
+  margin-bottom: 1rem;
+  height: 1.7rem;
+  outline: none;
+}
+
+.two__fields--cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+}
+
+.two__fields--cont input:nth-child(1) {
+  margin-right: 3rem;
+}
+.input__field {
+  border: none; /* <-- This thing here */
+  border: solid 1px #ccc;
+  border-radius: 10px;
+  padding-left: 0.4rem;
+  height: 2.2rem;
+}
